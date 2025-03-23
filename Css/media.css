@@ -1,0 +1,364 @@
+
+/* للأجهزة المتوسطة (أجهزة اللابتوب الصغيرة و التابلت الأفقي) */
+@media screen and (max-width: 1280px) { 
+    .card { 
+        width: 31%! important; 
+    } 
+   
+  }
+  
+  /* للأجهزة اللوحية (Tablet) */
+  @media screen and (max-width: 1024px) { 
+    .menue-bar{
+        display: flex;
+        transform: translateX(450%);
+    }
+    .Container .icon{
+        transform: translateX(5%);
+    }
+    .logo{
+        transform: translateX(-25%);
+    }
+    .Container ul{
+        display: none;
+        /* transform: translateX(100%); */
+    
+    }
+    
+    .card { 
+        width: 48% !important;
+    } 
+    .image-container{
+        columns:2 ;
+        gap: 20px;
+    }
+    .hero-img{
+        width: 100%;
+        order: 1;
+        /* transform: translateX(50px) translateY(110px); */
+       margin-top: 40px;
+    
+    }
+    .title{
+        
+        width: 100%;
+        align-self: center;
+        text-align: center;
+        order: 2;
+    }
+    .home{
+        padding-bottom: 60px;
+    }
+    .home h1{
+        font-size: 65px;
+        width: 70%;
+        text-align: center;
+        margin-left: 80px;
+        
+    }
+    .home p{
+        width: 100%;
+    }
+    .btn{
+        padding: 10px;
+        width: 160px;
+        height: 50px;
+        border-radius: 20px;
+        font-size: 14px;
+        align-self: center;
+      /* margin-right: 10px; */
+      margin-left: px;
+      display: block;
+      margin-bottom: 0;
+    }
+    .icon2{
+        transform: translateX();
+    }
+    
+    
+    .btn-watch-video{
+        /* transform: translateX(-10%); */
+        margin-top: 0;
+        margin-left: 50px;
+    }
+    .buttons{
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        gap: 30px;
+    }
+    .address{
+        width: 100%;
+        /* flex-wrap: wrap; */
+      }
+      .bttn{
+        left: 40%;
+      }
+      .Newsletter{
+        width: 100%;
+        margin-right: 100px;
+        order: 3;
+      }
+      .Newsletter input{
+        width: 100%;
+       
+        }
+        .list{
+            display: flex;
+            margin-right: 0px;
+            padding: 0px;
+            gap: 80px;
+            font-size: 12px;
+          }
+        label{
+            
+            padding: 10px;
+            display: block;
+            width: 100%px;
+            /* margin-left: 80px; */
+          
+          }
+      .about{
+        width: 50%;
+        order: 1;
+      
+      }
+      .flexx{
+        gap: 30px;
+      }
+      .touch{
+        width: 50%;
+        order: 2;
+        /* margin-left: 50px; */
+      }
+  }
+  
+  /* للهواتف الكبيرة (مثل iPhone 14 Pro Max، Galaxy S22) */
+  @media screen and (max-width: 768px) { 
+    .menue-bar{
+        display: flex;
+        transform: translateX(450%);
+    }
+    .Container ul{
+        display: none;
+        /* transform: translateX(100%); */
+    
+    }
+    .Container .icon{
+        transform: translateX(5%);
+    }
+    .logo{
+        transform: translateX(-25%);
+    }
+    .card { 
+        width: 100% !important;
+    } 
+    .image-container{
+        columns:1 ;
+    }
+    .hero-img{
+        width: 100%;
+        order: 1;
+        /* transform: translateX(50px) translateY(110px); */
+       margin-top: 40px;
+    
+    }
+    .title{
+        width: 100%;
+        height: 50%;
+        /* align-self: center;
+        text-align: center;  */
+        order: 2;
+    }
+    .home{
+        padding-bottom: 60px;
+    }
+    .home h1{
+        font-size: 65px;
+        width: 70%;
+        text-align: center;
+        margin-left: 80px;
+        
+    }
+    .home p{
+        width: 100%;
+    }
+    .btn{
+        padding: 10px;
+        width: 160px;
+        height: 50px;
+        border-radius: 20px;
+        font-size: 14px;
+        align-self: center;
+      /* margin-right: 10px; */
+      margin-left: px;
+      display: block;
+      margin-bottom: 0;
+    }
+    /* .icon2{
+        transform: translateX();
+    } */
+    
+    
+    .btn-watch-video{
+        /* transform: translateX(-10%); */
+        margin-top: 0;
+        margin-left: 50px;
+    }
+    .address{
+        width: 100%;
+        /* flex-wrap: wrap; */
+      }
+      .bttn{
+        left: 27%;
+      }
+      .Newsletter{
+        width: 100%;
+        margin-right: 100px;
+        order: 2;
+      }
+      .Newsletter input{
+        width: 100%;
+       
+        }
+        .list{
+            display: flex;
+            margin-right: 0px;
+            padding: 0px;
+            gap: 80px;
+            font-size: 12px;
+          }
+        label{
+            
+            padding: 10px;
+            display: block;
+            width: 100%px;
+            /* margin-left: 80px; */
+          
+          }
+      .about{
+        width: 100%;
+       order: 1;
+      }
+      .flexx{
+        gap: 30px;
+      }
+      .touch{
+        width: 100%;
+        order: 3;
+        /* margin-left: 50px; */
+      }
+  }
+  
+  /* للهواتف الصغيرة (شاشات 500px وما أقل) */
+  @media screen and (max-width: 500px) { 
+    .menue-bar{
+        display: flex;
+        transform: translateX(450%);
+    }
+    .Container .icon{
+        transform: translateX(5%);
+    }
+    .logo{
+        transform: translateX(-25%);
+    }
+    .Container ul{
+        display: none;
+        /* transform: translateX(100%); */
+    
+    }
+    .card { 
+        width: 100% !important;
+    } 
+    .image-container{
+        columns:1 ;
+    }
+    .hero-img{
+        width: 100%;
+        order: 1;
+        /* transform: translateX(50px) translateY(110px); */
+       margin-top: 40px;
+    
+    }
+    .title{
+        width: 100%;
+        /* align-self: center;
+        text-align: center;  */
+        order: 2;
+    }
+    .home{
+        padding-bottom: 60px;
+    }
+    .home h1{
+        font-size: 65px;
+        width: 100%;
+        margin-left: 0px;
+        
+    }
+    .home p{
+        width: 100%;
+    }
+    .btn{
+        padding: 10px;
+        width: 160px;
+        height: 50px;
+        border-radius: 20px;
+        font-size: 14px;
+        align-self: center;
+      /* margin-right: 10px; */
+      margin-left: 35px;
+      display: block;
+      margin-bottom: 0;
+    }
+    .btn-watch-video{
+        margin-left: 25%;
+        margin-top: 0;
+    }
+    .buttons{
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        gap: 30px;
+    }
+    .address{
+        width: 100%;
+        /* flex-wrap: wrap; */
+      }
+      .bttn{
+        left: 27%;
+      }
+      .Newsletter{
+        width: 100%;
+        margin-right: 100px;
+      }
+      .Newsletter input{
+        width: 350px;
+       
+        }
+        .list{
+            display: flex;
+            margin-right: 0px;
+            padding: 0px;
+            gap: 80px;
+            font-size: 12px;
+          }
+        label{
+            
+            padding: 10px;
+            display: block;
+            width: 350px;
+            /* margin-left: 80px; */
+          
+          }
+      .about{
+        width: 100%;
+      
+      }
+      .flexx{
+        gap: 30px;
+      }
+      .touch{
+        width: 100%;
+        /* margin-left: 50px; */
+      }
+  }
